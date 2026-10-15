@@ -1,3 +1,12 @@
+:root {
+    --base-color: #2073c5;
+    --base-variant: #357ec7;
+    --base-variant-2: #0060c0;
+    --text-color: white;
+    --secondary-text: lightgray;
+    --accent-color: #45a049;
+}
+
 body {
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
