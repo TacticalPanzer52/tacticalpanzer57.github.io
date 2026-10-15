@@ -7,17 +7,45 @@
     --accent-color: #45a049;
 }
 
+.darkmode {
+    --base-color: #151515;
+    --base-variant: #202020;
+    --base-variant-2: #101010;
+    --text-color: black;
+    --secondary-text: #909090;
+    --accent-color: #FF5000;
+}
+
+#theme {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: none;
+}
+
+#theme svg {
+    fill: var(--accent-text);
+}
+
 body {
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1;
-    background-color: #0060c0;
+    background-color: var(--base-variant-2);
 }
 
 header {
-    background-color: #45a049;
-    color: white;
+    background-color: var(--accent-color);
+    color: var(--text-color);
     text-align: left;
     font-family: 'Tahoma', sans-serif;
     font-style: italic;
@@ -27,13 +55,14 @@ header {
 }
 
 header a {
-    color: white;
+    color: var(--text-color);
     text-align: left;
     font-family: 'Tahoma', sans-serif;
     font-style: italic;
     width: 100%;
     padding: 0;
     top: 0;
+    text-decoration: none;
 }
 
 nav ul {
@@ -41,33 +70,33 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #2073c5;
+    background-color: var(--base-color);
     margin: 0;
 }
 
 nav ul li {
     margin: 0;
     padding: 0;
-    background-color: #2073c5;
+    background-color: var(--base-color);
 }
 
 nav ul li a {
-    color: lightgray;
+    color: var(--secondary-text);
     padding: 0.5rem;
     display: block;
     top: 0;
 }
 
 section {
-    color: lightgray;
+    color: var(--secondary-text);
     text-align: center;
     font-weight: bolder;
-    background-color: #357EC7;
+    background-color: var(--base-variant);
     padding: 5%;
 }
 
 section a {
-    color: lightgray;
+    color: var(--secondary-text);
 }
 
 section2 {
@@ -76,8 +105,8 @@ section2 {
 
 footer {
     text-align: center;
-    background-color: #0060c0;
-    background: #45a049;
+    background-color: var(--base-variant-2);
+    background: var(--accent-color);
     padding: 0%;
     position: fixed;
     width: 100%;
