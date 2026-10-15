@@ -12,7 +12,17 @@ header {
     text-align: left;
     font-family: 'Tahoma', sans-serif;
     font-style: italic;
-    text-decoration: none;
+    width: 100%;
+    padding: 0;
+    top: 0;
+}
+
+header a {
+    background-color: #45a049;
+    color: white;
+    text-align: left;
+    font-family: 'Tahoma', sans-serif;
+    font-style: italic;
     width: 100%;
     padding: 0;
     top: 0;
@@ -52,7 +62,7 @@ section a {
     color: lightgray;
 }
 
-section2{
+section2 {
     padding: 5%
 }
 
