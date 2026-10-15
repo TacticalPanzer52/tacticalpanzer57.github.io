@@ -1,7 +1,3 @@
-### TacticalPanzer.org 
-Url pending
- 
-The Missile Knows where it is because it knows where it isin't
-by subrtacting where it is from where it isin't the missile knows where it should be
+### manzermann.org
 
-all jokes aside this website will have some usefull imformation in the future, right now there is just some random stuff that will not be there in the future because i will buy a domain (TacticalPanzer.org) adn make this site usefull.
+Trully a wondrous hobby site, I'll make sure to make it interesting as time goes on but I'm simply still trying to make simple functions work correctly
