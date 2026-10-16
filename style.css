@@ -21,18 +21,18 @@
     width: 50px;
     padding: 0;
     border-radius: 50%;
-    background-color: var(--text-color);
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    top: 20px;
-    right: 20px;
+    position: absolute;
+    top: 3%;
+    right: -0.5%;
     border: none;
 }
 
 #theme svg {
-    fill: var(--accent-text);
+    fill: var(--base-variant-2);
 }
 
 body {
