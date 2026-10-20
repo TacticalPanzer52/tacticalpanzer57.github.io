@@ -8,10 +8,10 @@
 }
 
 .darkmode {
-    --base-color: #151515;
-    --base-variant: #202020;
+    --base-color: #202020;
+    --base-variant: #303030;
     --base-variant-2: #101010;
-    --text-color: black;
+    --text-color: #303030;
     --secondary-text: #909090;
     --accent-color: #FF5000;
 }
